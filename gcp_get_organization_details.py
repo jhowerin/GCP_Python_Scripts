@@ -3,8 +3,10 @@
 # Required: pip3 install google-auth
 # Required: pip3 install google-auth-httplib2
 # Required: pip3 install google-auth-oauthlib
-# Required: pip3 install google-cloud
-# pip3 install --upgrade google-cloud-storage
+# This script uses a service account to access the GCP API
+# The service account is created in a project and then must be granted
+# to other proejcts.  This is done by adding the service account to the
+# IAM of the project.
 import os
 import sys
 import json
@@ -61,7 +63,7 @@ print("*********************************")
 # credentials = service_account.Credentials.from_service_account_file('Org-SA_keys.json')
 # compute = googleapiclient.discovery.build('compute', 'v1', credentials=credentials)
 
-list_instances(compute, "opencti-id", "us-east1-b")
+# list_instances(compute, "opencti-id", "us-east1-b")
 # End of code block to list the VM's
 
 # Code block to the list of the GCP Buckets in GCS
