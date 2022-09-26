@@ -1,7 +1,7 @@
 # Google Cloud VM name, IP address and FDQN Report
 # This script uses a service account to access the GCP API
 # The service account is created in a project and then must be granted
-# to other proejcts.  This is done by adding the service account to the
+# to other projects.  This is done by adding the service account to the
 # IAM of the project.
 import json
 import googleapiclient.discovery
