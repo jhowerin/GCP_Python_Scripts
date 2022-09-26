@@ -4,7 +4,7 @@ VM internal IP <br>
 VM external IP if configured <br>
 VM FQDN - using appspot.com as the domain <br>
 
-Requirements
+Requirements<br>
 Access to Google Cloud via a service account created in a project
 The service account key must be accesible via the file path specified in line 11 of the code
 Then, add that service account to the Organization IAM with appropriate permissions "compute viewer"
