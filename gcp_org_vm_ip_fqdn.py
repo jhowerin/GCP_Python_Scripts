@@ -38,7 +38,7 @@ projects = list_projects(organization_id)
 # Print the list of projects in the Organization
 print('Projects in Organization:')
 for project in projects:
-    print(project['projectId'])
+    print("Project: ", project['projectId'])
 print("*********************************")
 # List all the VM's in all the projects in the Organization
 print('All the VM''s in all the Projects in the Organization:')
