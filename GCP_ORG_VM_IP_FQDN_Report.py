@@ -60,7 +60,7 @@ for project in projects:
                 zoneName = zone['name']
                 instanceName = instance['name']
                 print("    ", "zone:", zoneName, "VM Name:", instanceName, "Private IP:", privateIP, "Public IP:", publicIP, "FQDN:", FQDN)
-                # internal FQDN is how VMs in same VPC communication
+                # internal FQDN is how VMs in same VPC communicate
                 # https://cloud.google.com/compute/docs/internal-dns
                 # print("      ", "Internal FQDN:", internalFQDN)
     print("*****")
