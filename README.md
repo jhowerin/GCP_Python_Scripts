@@ -8,6 +8,6 @@ Requirements<br>
 Access Google Cloud via a service account created in a project you specify. The service account key must be accesible via the file path specified in line 11 of the code. Then, add that service account to the Organization IAM with appropriate permissions - aka "compute viewer"
 
 Security Reminder:
-Do not share your service account key. Prevent inadverntly uploading to Github or other repos by using
+Do not share your service account key. Prevent inadvertently uploading to Github or other repos by using
 a .gitignore file
 ### Please contact Jake Howering if needed - jhowerin@gmail.com
