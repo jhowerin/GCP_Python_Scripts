@@ -50,6 +50,7 @@ for project in projects:
                     internalFQDN = instance['name'] + "." + project['projectId'] + ".internal"
                 except KeyError:
                     internalFQDN = 'None'
+                # Create FQDN using appsot.com from Google's App Engine
                 FQDN=instance['name'] + '.' + project['projectId'] + '.appspot.com'
                 try:
                     publicIP = instance['networkInterfaces'][0]['accessConfigs'][0]['natIP']
